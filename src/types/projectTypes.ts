@@ -16,5 +16,5 @@ export type Project = {
   description: string;
   githubUrl: string;
   liveUrl?: string;
-  featured: boolean;
+  featured: boolean; // set this to true if you want this project to be displayed at the top of the projects list
 };
