@@ -1,5 +1,5 @@
 import React from "react";
-import type { Project } from "../types/projectTypes";
+import type { Project } from "../../types/projectTypes";
 import "./ProjectCard.css";
 
 type Props = {
