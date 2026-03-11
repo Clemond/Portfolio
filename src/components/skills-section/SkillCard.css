@@ -1,0 +1,17 @@
+.skillCardContainer {
+  padding: 5px 15px 5px;
+  background-color: gray;
+  width: max-content;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(194, 39, 222, 0.5);
+}
+
+.skillCardContainer:hover {
+  transform: translateY(-4px);
+}
+
+.skillCardText {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
