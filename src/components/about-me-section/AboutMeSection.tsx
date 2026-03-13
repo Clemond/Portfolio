@@ -10,12 +10,12 @@ export default function AboutMeSection() {
     <div className="AboutMeSectionContainer">
       <p className="AboutMeText">{aboutMeTxt}</p>
       <div className="HighlightSection">
-        <AboutMeHighlights name={"Based in Stockholm"} img={PushPinIcon} />
+        <AboutMeHighlights name={"Based in Stockholm"} icon={PushPinIcon} />
         <AboutMeHighlights
           name={"Stockholm Technical Institute"}
-          img={SchoolIcon}
+          icon={SchoolIcon}
         />
-        <AboutMeHighlights name={"Web & Mobile Developer"} img={DevicesIcon} />
+        <AboutMeHighlights name={"Web & Mobile Developer"} icon={DevicesIcon} />
       </div>
     </div>
   );
