@@ -1,10 +1,13 @@
 .linkButtons {
-  box-shadow: 0 4px 6px rgba(194, 39, 222, 0.5);
+  box-shadow: 0 4px 10px rgba(194, 39, 222, 0.25);
   opacity: 1;
 }
 
 .linkButtons:hover {
   opacity: 0.8;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.5),
+    0 0 12px rgba(194, 39, 222, 0.3);
 }
 
 .linkButtons:active {

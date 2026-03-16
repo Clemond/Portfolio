@@ -1,11 +1,10 @@
 .skillCardContainer {
   padding: 0px 15px 0px;
-  background-color: gray;
+  background-color: rgba(255, 255, 255, 0.1);
   width: max-content;
   border-radius: 10px;
-  border: 1px solid #ccc;
   transition: transform 0.2s ease;
-  box-shadow: 0 2px 6px rgba(194, 39, 222, 0.5);
+  box-shadow: 0 4px 10px rgba(194, 39, 222, 0.25);
 }
 
 .skillCardContainer:hover {
@@ -14,4 +13,9 @@
 
 .skillCardText {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.skillCardContainer:hover {
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.5),
+    0 0 12px rgba(194, 39, 222, 0.3);
 }
