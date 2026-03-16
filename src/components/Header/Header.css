@@ -7,7 +7,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: #242424;
+  background: linear-gradient(135deg, #1e1e28, #242424);
 }
 
 .nameField {
