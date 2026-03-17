@@ -11,3 +11,14 @@
   gap: 12px;
   flex-wrap: wrap;
 }
+
+.skillSectionTitleText {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.skillSectionCategoryText {
+  font-weight: 100;
+}

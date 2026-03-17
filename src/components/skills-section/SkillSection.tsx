@@ -5,10 +5,10 @@ import "./SkillSection.css";
 export default function SkillSection() {
   return (
     <div className="skillSectionContainer">
-      <p className="ProjectTitleText">Skills</p>
+      <p className="skillSectionTitleText">Skills</p>
       {skills.map((category) => (
         <div key={category.title}>
-          <h3>{category.title}:</h3>
+          <h3 className="skillSectionCategoryText">{category.title}:</h3>
           <div className="skillSectionRows">
             {category.skills.map((skill) => (
               <SkillCard key={skill} skillName={skill} />
