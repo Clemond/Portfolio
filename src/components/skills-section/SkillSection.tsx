@@ -4,7 +4,7 @@ import "./SkillSection.css";
 
 export default function SkillSection() {
   return (
-    <div className="skillSectionContainer">
+    <div id="skillsSection" className="skillSectionContainer">
       <p className="skillSectionTitleText">Skills</p>
       {skills.map((category) => (
         <div key={category.title}>
