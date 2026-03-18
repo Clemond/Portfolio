@@ -14,18 +14,18 @@
   scroll-margin-top: 80px;
 }
 
-.nameField {
+.headerNameField {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   gap: 0.5rem;
 }
 
-.name {
+.headerName {
   font-size: large;
 }
 
-.jobTitle {
+.headerJobTitle {
   font-size: small;
   color: lightgrey;
 }

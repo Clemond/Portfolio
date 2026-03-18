@@ -3,9 +3,9 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="headerContainer">
-      <div className="nameField">
-        <p className="name">Nicholas Nieminen Jönsson</p>
-        <p className="jobTitle">iOS & Android Developer</p>
+      <div className="headerNameField">
+        <p className="headerName">Nicholas Nieminen Jönsson</p>
+        <p className="headerJobTitle">iOS & Android Developer</p>
       </div>
 
       <div className="headerBtnContainer">
