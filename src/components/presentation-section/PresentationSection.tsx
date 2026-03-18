@@ -17,9 +17,7 @@ export default function PresentationSection() {
       <div>
         <p className="presentationSectionHelloText">Hello, I'm</p>
         <p className="presentationSectionNameText">Nicholas Nieminen Jönsson</p>
-        <p className="presentationSectionJobTitle">
-          Application Developer Student
-        </p>
+        <p className="presentationSectionJobTitle">iOS & Android Developer</p>
         <div className="presentationSectionButtonField">
           <button
             className="presentationSectionBtnStyle"
