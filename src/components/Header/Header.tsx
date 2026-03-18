@@ -9,7 +9,14 @@ export default function Header() {
       </div>
 
       <div className="headerBtnContainer">
-        <button onClick={() => {}} className="headerBtn">
+        <button
+          onClick={() => {
+            document.getElementById("projectSection")?.scrollIntoView({
+              behavior: "smooth"
+            });
+          }}
+          className="headerBtn"
+        >
           Portfolio
         </button>
         <button onClick={() => {}} className="headerBtn">

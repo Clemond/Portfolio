@@ -4,7 +4,7 @@ import "./ProjectSection.css";
 
 export default function ProjectSection() {
   return (
-    <div>
+    <div id="projectSection">
       <p className="ProjectTitleText">Projects</p>
       <div className="ProjectCardContainer">
         {projects.map((proj) => (
