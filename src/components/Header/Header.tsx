@@ -17,7 +17,7 @@ export default function Header() {
           }}
           className="headerBtn"
         >
-          Portfolio
+          Projects
         </button>
         <button onClick={() => {}} className="headerBtn">
           Resume
