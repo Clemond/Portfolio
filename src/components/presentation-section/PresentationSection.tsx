@@ -1,8 +1,8 @@
 import ProfilePic from "../../assets/profilePic.jpg";
-import "./PresentationCard.css";
+import "./PresentationSection.css";
 import SocialMediaLinks from "./SocialMediaLinks";
 
-export default function PresentationCard() {
+export default function PresentationSection() {
   return (
     <div className="containerProfile">
       <img
