@@ -12,7 +12,12 @@
   left: 10px;
   right: 10px;
   height: 1px;
-  background: aliceblue;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(240, 248, 255),
+    transparent
+  );
 }
 
 .contactSectionLinks {
