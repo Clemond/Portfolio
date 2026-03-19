@@ -1,0 +1,25 @@
+.contactSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background: #1a1a22;
+}
+
+.contactSectionContainer::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(240, 248, 255),
+    transparent
+  );
+}
+
+.contactSectionLinks {
+  margin-top: 20px;
+}

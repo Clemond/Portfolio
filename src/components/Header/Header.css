@@ -1,8 +1,6 @@
 .headerContainer {
   display: flex;
   flex-direction: row;
-  border-color: aliceblue;
-  border-bottom-style: solid;
   align-items: baseline;
   position: sticky;
   top: 0;
@@ -10,11 +8,27 @@
   background: linear-gradient(135deg, #1e1e28, #242424);
 }
 
+.headerContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(240, 248, 255),
+    transparent
+  );
+}
+
 .headerNameField {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   gap: 0.5rem;
+  margin-left: 8px;
 }
 
 .headerName {
@@ -33,6 +47,7 @@
   align-items: end;
   justify-content: flex-end;
   gap: 0.5rem;
+  margin-right: 8px;
 }
 
 .headerBtn {
