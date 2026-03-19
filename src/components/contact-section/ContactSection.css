@@ -1,0 +1,14 @@
+.contactSectionContainer {
+  display: flex;
+  flex-direction: column;
+  border-color: aliceblue;
+  border-width: 1px;
+  border-top-style: solid;
+  align-items: center;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #1e1e28, #242424);
+}
+
+.contactSectionLinks {
+  margin-top: 20px;
+}
