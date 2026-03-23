@@ -1,17 +1,25 @@
-.timeline {
-  border-left: 2px solid rgba(255, 255, 255, 0.1);
-  padding-left: 20px;
+.ResumeSectionTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 100;
 }
 
-.timelineItem {
+.ResumeSectionTimeline {
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.ResumeSectionTimelineItem {
   margin-bottom: 30px;
   position: relative;
 }
 
-.timelineItem::before {
+.ResumeSectionTimelineItem::before {
   content: "";
   position: absolute;
-  left: -9px;
+  left: -15px;
   top: 5px;
   width: 10px;
   height: 10px;
