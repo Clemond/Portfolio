@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/header/Header";
+import Header from "../components/header-section/Header";
 import ProjectSection from "../components/project-section/ProjectSection";
 import SkillSection from "../components/skills-section/SkillSection";
 import AboutMeSection from "../components/about-me-section/AboutMeSection";
