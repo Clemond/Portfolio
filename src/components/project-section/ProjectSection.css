@@ -5,11 +5,23 @@
   gap: 20px;
   padding: 10px;
   border-radius: 10px;
-  scrollbar-width: thin;
   margin-left: 20px;
   margin-right: 20px;
   background: linear-gradient(135deg, #1f1b2e, #242424, #1c2a38);
   box-shadow: 0 2px 10px rgba(227, 183, 235, 0.25);
+}
+
+.ProjectCardContainer::-webkit-scrollbar {
+  height: 9px;
+}
+
+.ProjectCardContainer::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 100px;
+}
+
+.ProjectCardContainer::-webkit-scrollbar-thumb:hover {
+  background: rgba(194, 39, 222, 0.5);
 }
 
 .ProjectTitleText {
