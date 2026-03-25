@@ -1,2 +1,2 @@
-export const aboutMeTxt: string =
+export const introductionText: string =
   "I am an application developer and a graduate of Stockholm Technical Institute with a passion for technology and problem-solving. I work with technologies such as React, TypeScript, Kotlin, and Swift, and enjoy building modern and user-friendly applications. I am always eager to learn new technologies, grow as a developer, and contribute to meaningful and innovative projects.";
