@@ -1,15 +1,15 @@
-.AboutMeSectionContainer {
+.IntroductionSectionContainer {
   padding: 10px;
   max-width: 550px;
   justify-self: center;
   text-align: justify;
 }
 
-.AboutMeText {
+.IntroductionText {
   font-style: italic;
 }
 
-.HighlightSection {
+.IntroductionHighlightSection {
   text-align: center;
   display: flex;
   flex-direction: row;
