@@ -3,7 +3,7 @@ import "./aboutMeSection.css";
 
 export default function AboutMeSection() {
   return (
-    <div>
+    <div id="aboutMeSection">
       <p className="AboutMeSectionTitle">About Me</p>
       <div className="AboutMeSectionContainer">
         {aboutMeData.map((item) => (

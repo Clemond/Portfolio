@@ -29,7 +29,14 @@ export default function Header() {
         >
           Resume
         </button>
-        <button onClick={() => {}} className="headerBtn">
+        <button
+          onClick={() => {
+            document.getElementById("aboutMeSection")?.scrollIntoView({
+              behavior: "smooth"
+            });
+          }}
+          className="headerBtn"
+        >
           About Me
         </button>
         <button
