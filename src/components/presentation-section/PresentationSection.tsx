@@ -21,9 +21,9 @@ export default function PresentationSection() {
         <div className="presentationSectionButtonField">
           <button
             className="presentationSectionBtnStyle"
-            onClick={() => alert("TBD")}
+            onClick={() => window.open("/cv.pdf", "_blank")}
           >
-            Download CV
+            View & Download CV
           </button>
           <button
             className="presentationSectionBtnStyle"
