@@ -1,6 +1,10 @@
 import "./Header.css";
 
-export default function Header() {
+type props = {
+  onContactClick: () => void;
+};
+
+export default function Header({ onContactClick }: props) {
   return (
     <div className="headerContainer">
       <div className="headerNameField">
@@ -49,7 +53,7 @@ export default function Header() {
         >
           Skills
         </button>
-        <button onClick={() => {}} className="headerBtn">
+        <button onClick={onContactClick} className="headerBtn">
           Contact
         </button>
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../components/header-section/Header";
 import ProjectSection from "../components/project-section/ProjectSection";
 import SkillSection from "../components/skills-section/SkillSection";
@@ -9,9 +9,11 @@ import IntroductionTextSection from "../components/introduction-text-section/Int
 import AboutMeSection from "../components/about-me-section/AboutMeSection";
 
 export const Home: React.FC = () => {
+  const [isContactModalOpen, setIsContactModalOpen] = useState<boolean>(false);
+
   return (
     <div>
-      <Header />
+      <Header onContactClick={() => setIsContactModalOpen(true)} />
       <PresentationSection />
       <IntroductionTextSection />
       <ProjectSection />
