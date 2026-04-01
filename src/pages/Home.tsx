@@ -8,6 +8,7 @@ import ResumeSection from "../components/resume-section/ResumeSection";
 import IntroductionTextSection from "../components/introduction-text-section/IntroductionTextSection";
 import AboutMeSection from "../components/about-me-section/AboutMeSection";
 import ContactModal from "../components/contact-modal/ContactModal";
+import RevealAnimation from "../components/utils/RevealAnimation";
 
 export const Home: React.FC = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState<boolean>(false);
@@ -18,9 +19,11 @@ export const Home: React.FC = () => {
       {isContactModalOpen && (
         <ContactModal onClose={() => setIsContactModalOpen(false)} />
       )}
-      <PresentationSection
-        onContactInfoClick={() => setIsContactModalOpen(true)}
-      />
+      <RevealAnimation>
+        <PresentationSection
+          onContactInfoClick={() => setIsContactModalOpen(true)}
+        />
+      </RevealAnimation>
       <IntroductionTextSection />
       <ProjectSection />
       <AboutMeSection />
