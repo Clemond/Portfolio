@@ -24,11 +24,27 @@ export const Home: React.FC = () => {
           onContactInfoClick={() => setIsContactModalOpen(true)}
         />
       </RevealAnimation>
-      <IntroductionTextSection />
-      <ProjectSection />
-      <AboutMeSection />
-      <ResumeSection />
-      <SkillSection />
+
+      <RevealAnimation>
+        <IntroductionTextSection />
+      </RevealAnimation>
+
+      <RevealAnimation>
+        <ProjectSection />
+      </RevealAnimation>
+
+      <RevealAnimation>
+        <AboutMeSection />
+      </RevealAnimation>
+
+      <RevealAnimation>
+        <ResumeSection />
+      </RevealAnimation>
+
+      <RevealAnimation>
+        <SkillSection />
+      </RevealAnimation>
+
       <ContactSection />
     </div>
   );
